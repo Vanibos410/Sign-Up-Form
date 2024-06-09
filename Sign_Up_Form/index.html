@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <h1>Register</h1>
+            <form action="register.php" method="post">
+                <div class="txt">
+                    <input type="text" name="fname" required>
+                    <span></span>
+                    <label>Name</label>
+                </div>
+                <div class="txt">
+                    <input type="email" name="email" required>
+                    <span></span>
+                    <label>Email</label>
+                </div>
+                <div class="txt">
+                    <input type="password" name="psd" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="txt">
+                    <input type="password" name="cpsd" required>
+                    <span></span>
+                    <label>Confirm Password</label>
+                </div>
+                <input type="submit" type="Submit" value="Sign Up">
+                <div class="login">
+                    Already have an account? <a href="login.php">Login Here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
